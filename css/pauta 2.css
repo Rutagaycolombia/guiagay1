@@ -1,0 +1,42 @@
+header {
+    position: absolute; /* Posiciona el header sobre la imagen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Asegura que el header esté sobre la imagen */
+    background: linear-gradient(to bottom, #ddddddd8, #ffffff00);
+    color: #3db6be;
+    padding: 30px;
+    text-align: center;
+    font-family: "Montserrat-Bold", "Montserrat", sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.header-content nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 3%;
+}
+
+.header-content nav ul li {
+    display: inline-block;
+}
+
+.header-content nav ul li a {
+    text-decoration: none;
+    color: #eb05c8;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 5px 10px;
+}
+
+.header-content nav ul li a:hover {
+    border-radius: 5px;
+    color: #fff;
+    background-color: #a00088;
+}
